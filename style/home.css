@@ -1,0 +1,49 @@
+ul{
+    margin: 0;
+    padding: 20px 30px;
+    clear: both;
+    margin: 30px 20px;
+    background: black;
+    width: auto;
+    height: 400px;
+}
+.machine{
+    width: 460px;
+    height: 600px;
+    background: #00a7ff;
+    padding: 15px;
+    margin: auto;
+}
+
+.img_coin{
+    float:left;
+    list-style: none;
+    display: block;
+    margin: 20px 10px;
+    width:100px;
+    height:170px; 
+}
+
+.img_logo{
+    background: url("../scr/logo.png");
+    background-repeat: no-repeat;
+    width: 330px;
+    height: 65px;
+    display: block;
+    margin: 10px auto;
+}
+
+#ch{
+    background: url("../scr/ch2.png");
+    background-repeat: no-repeat;
+}
+
+#poster{
+    background: url("../scr/poster1.png");
+    background-repeat: no-repeat;
+}
+
+#img{
+    background: url("../scr/img1.png");
+    background-repeat: no-repeat;
+}
