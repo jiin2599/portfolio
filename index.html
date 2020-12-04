@@ -4,19 +4,45 @@
         <title>portfolio</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href=style/home.css>
+        <link rel="stylesheet" href=style/carousel.css>
  </head>
  
  <body>
   <div class="machine">
-   <ul>
+   <ul id="main">
     <li class="img_logo"></li>
-    <li class="img_coin" id="ch"></li>
-    <li class="img_coin" id="poster"></li>
-    <li class="img_coin" id="img"></li>
+       
+    <li class="img_coin">
+    <ul class="carousel">
+        <li><a href="#c1"><img src="../portfolio/scr/ch1.png" alt="슬라이드1"></a></li>
+        <li><a href="#c2"><img src="../portfolio/scr/ch2.png" alt="슬라이드2"></a></li>
+        <li><a href="#c3"><img src="../portfolio/scr/ch3.png" alt="슬라이드3"></a></li>
+        </ul>
+       </li>
+       
+    <li class="img_coin">
+    <ul class="carousel">
+        <li><a href="#c1"><img src="../portfolio/scr/poster1.png" alt="슬라이드1"></a></li>
+        <li><a href="#c2"><img src="../portfolio/scr/poster2.png" alt="슬라이드2"></a></li>
+        <li><a href="#c3"><img src="../portfolio/scr/poster1.png" alt="슬라이드3"></a></li>
+        </ul></li>
+       
+    <li class="img_coin">
+       <ul class="carousel">
+        <li><a href="#c1"><img src="../portfolio/scr/img1.png" alt="슬라이드1"></a></li>
+        <li><a href="#c2"><img src="../portfolio/scr/img2.png" alt="슬라이드2"></a></li>
+        <li><a href="#c3"><img src="../portfolio/scr/img1.png" alt="슬라이드3"></a></li>
+        </ul></li>
+       
+       <div id="button">
+       <div class="button1"><a href="character.html"><img src="../portfolio/scr/ch_name.png" ></a></div>
+       <div class="button2"><a href="poster.html"><img src="../portfolio/scr/poster_name.png" ></a></div>
+       <div class="button3"><a href="synthesis.html"><img src="../portfolio/scr/img_name.png" ></a></div>
+       </div>
    </ul>
+      <p id="machine"></p>
+      <p id="em">&copy; Vending machine</p>
   </div>
-     
-  <footer>
-  </footer>
+
  </body>
 </html>

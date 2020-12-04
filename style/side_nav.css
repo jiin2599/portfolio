@@ -1,0 +1,47 @@
+.side_nav{
+    background-color: #00a7ff;
+    height: 100%;
+}
+
+.section-title{
+    width:90%;
+    margin-bottom: 30px;
+    border: none;
+    color: #00245d;
+}
+
+.side_nav li a{
+    text-decoration:overline;
+    color:#ffffff;
+    padding-bottom: 50px;
+}
+
+.side_nav{
+    float:right;
+    display: block;
+    padding: 90px 0 30px 200px;
+    width:200px;
+    height: 1100px;
+    position: absolute;
+    z-index:10;
+}
+
+.side_nav li{
+    list-style: none;
+    display: block;
+    padding:20px 0 5px 0;
+    width:140px;
+    text-align: right;
+}
+
+.main{
+    padding: 0;
+    overflow: hidden;
+}
+
+.section-title{
+    font-size: 20px;
+    display: block;
+    text-align: right;
+    font-weight: 600;
+}

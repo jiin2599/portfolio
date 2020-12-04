@@ -1,0 +1,41 @@
+#nav nav{
+    margin: 0;
+    border-top: 20px solid #000;
+    border-bottom: 6px solid #00a7ff;
+    background: #000;
+}
+
+#nav nav ul{
+    overflow:hidden;
+    margin:0 200px 0 400px;
+    padding: 0;
+    width:1000px;
+    list-style: none;
+}
+
+#nav nav li{
+    box-sizing: border-box;
+    float:left;
+    border-right: 1px solid #000;
+    width:25%
+}
+
+#nav nav li{
+    border-right: 0;
+}
+
+#nav nav a{
+    text-align: center;
+    color:#fff;
+    text-decoration: none;
+    display: block;
+    padding:10px 0;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 20px 20px 0 0 
+}
+
+#nav nav a:hover{
+    background: #00a7ff;
+    color:#000000;
+}
