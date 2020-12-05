@@ -3,14 +3,14 @@
     padding: 10px 10px;
     clear: both;
     margin: 20px 10px;
-    background: #313131;
+    background: #ffffff;
     width: auto;
     height: 300px;
 }
 .machine{
     width: 400px;
     height: 600px;
-    background: #00a7ff;
+    background: #313131;
     padding: 15px;
     margin: 50px auto;
     box-shadow: 2px 4px 4px 2px rgba(1, 11, 29, 0.38);
@@ -27,13 +27,14 @@
 }
 
 .img_logo{
-    background: url("../scr/logo.png");
+    background: url("../scr/LOGO.png");
     background-repeat: no-repeat;
     width: 330px;
     height: 65px;
     display: block;
     margin: 10px auto;
     box-shadow: 4px 4px 3px 3px rgba(255, 255, 255, 0.15);
+    background-size: cover;
 }
 
 #machine{
@@ -46,7 +47,7 @@
 }
 
 #em{
-    background-color: #4d4d4d;
+    background-color: #6a6a6a;
     width: 360px;
     height: auto;
     text-align: center;
@@ -60,11 +61,12 @@
     width: 500px;
     height: 30px;
     margin-top: 170px; 
-    margin-left: 10px;
+    margin-left: 0px;
     list-style: none;
     background-repeat: no-repeat;
     display: block;
     position: absolute;
+    background-size: cover;
 }
 
 .button2{
@@ -72,7 +74,7 @@
     width: 100px;
     height: 30px;
     margin-top: 170px; 
-    margin-left: 130px;
+    margin-left: 125px;
     list-style: none;
     background-repeat: no-repeat;
     display: block;
@@ -87,4 +89,5 @@
     list-style: none;
     background-repeat: no-repeat;
     display: block;
+    
 }

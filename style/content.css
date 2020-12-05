@@ -13,6 +13,10 @@
     width: 500px;
 }
 
+.content h1{
+    font-size: 20px;
+    color: #4b4b4b;
+}
 .main_img{
     position: absolute;
     z-index:90;
@@ -55,67 +59,106 @@ h1{
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
 }
 
-.friend1{
+#card_block {
     position: absolute;
-    z-index:90;
-    top: 500px;
-    margin-left: 450px;
-    background-image: url(../scr/ch1_ice4.png);
-    background-size: 500px;
-    list-style: none;
-    padding: 80px;
-    background-repeat: no-repeat;
-    width: 50%;
-}
-
-.friend2{
-    position: absolute;
-    z-index:90;
-    top: 650px;
-    margin-left: 450px;
-    background-image: url(../scr/ch1_wave.png);
-    background-size: 500px;
-    list-style: none;
-    padding: 100px;
-    background-repeat: no-repeat;
     width:100%;
+    top: 480px;
+    width: 830px;
+    text-align: left;
+    padding:5px 10px;
+    margin:50px 450px;
+}
+#card_block h1{
+   font-size: 17px;
+    font-weight: 900;
+    color: #535353;
+    border: 1px solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-left-color: #a5a5a5;
+    width: 240px;
+    padding-left: 5px;
+}
+#card_block .card_boxes{
+    width: 100%;
+    height: 400px;
 }
 
-.friend3{
-    position: absolute;
-    z-index:90;
-    top: 800px;
-    margin-left: 450px;
-    background-image: url(../scr/ch1_windy.png);
-    background-size: 500px;
-    list-style: none;
-    padding: 100px;
-    background-repeat: no-repeat;
-    width: 50%;
+#card_block .card{
+    width:180px;
+    float:left;
+    margin:0 13px;
 }
 
-.friend4{
-    position: absolute;
-    z-index:90;
-    top: 950px;
-    margin-left: 450px;
-    background-image: url(../scr/ch1_leaf.png);
-    background-size: 500px;
-    list-style: none;
-    padding: 100px;
+#card_block .card_title{
+    height: 150px;
+    padding: 10;
+    margin:0px 20px 0px;
+    background:#ffd262;
+    background: url(../scr/ch1_wave.png);
     background-repeat: no-repeat;
-    width: 50%;
+    background-size: 150px;
+    background-image: center;
+   
 }
 
-.friend5{
-    position: absolute;
-    z-index:90;
-    top: 1100px;
-    margin-left: 450px;
-    background-image: url(../scr/ch1_rock.png);
-    background-size: 500px;
-    list-style: none;
-    padding: 100px;
+#card_block .card_title2{
+    height: 150px;
+    padding: 10;
+    margin:0px 20px 0px;
+    background:#ffd262;
+    background: url(../scr/ch1_windy.png);
     background-repeat: no-repeat;
-    width: 50%;
+    background-size: 150px;
+    background-image: center;
+   
+}
+
+#card_block .card_title3{
+    height: 150px;
+    padding: 10;
+    margin:0px 20px 0px;
+    background:#ffd262;
+    background: url(../scr/ch1_leaf.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-image: center;
+   
+}
+
+#card_block .card_title4{
+    height: 150px;
+    padding: 10;
+    margin:0px 20px 0px;
+    background:#ffd262;
+    background: url(../scr/ch1_rock.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-image: center;
+   
+}
+
+#card_block .card_contents{
+    height:100px;
+    padding:10px 10px;
+    margin:0;
+    background-color: #767676;
+    overflow: hidden;
+}
+#card_block a{
+    text-decoration: none;
+    color:#e2e2e2;
+    margin: 10px 10px;
+    font-size: 13px;
+}
+
+.name{
+    padding:1px;
+    background: linear-gradient(transparent 60%,#6a6a6a 60%, #6a6a6a 100%);
+    font-size: 15px;
+}
+
+#name{
+    text-align: center;
+    margin-bottom: 10px;
 }
