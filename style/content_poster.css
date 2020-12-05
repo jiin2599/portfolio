@@ -40,3 +40,9 @@ p{
 #so{
     width:  580px;
 }
+
+#poster_name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #4b4b4b;
+}
