@@ -1,0 +1,46 @@
+#dummy {
+    height:400;
+    z-index: 90%;
+}
+
+a {
+    text-decoration: none;
+    color:crimson;
+}
+
+a:link{
+    color:aquamarine;
+}
+
+a:visited {
+    color:darkgreen;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+a:active{
+    color:darkorange;
+}
+
+a:target {
+    background-color: darkgoldenrod;
+    color: antiquewhite;
+}
+
+#base64{
+    width:600px;
+    height:600px;
+}
+
+span:hover{
+    background-color: aqua;
+}
+span:active{
+    background-color: crimson;
+}
+#description {
+    height: 800px;
+}
+
